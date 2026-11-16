@@ -13,6 +13,6 @@ menuButton.addEventListener("click", () => {
 
     const isVisible = navigation.classList.contains("show");
 
-    menuButton.textContent = isVisible ? "X" : "☰";
+    menuButton.textContent = isVisible ? "X" : "...";
     menuButton.setAttribute("aria-expanded", isVisible);
 });
